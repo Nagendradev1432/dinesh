@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <style> table,td{
+            border: 2px solid;
+            
+            border-collapse: collapse;
+        }
+        .a{
+            background-image: linear-gradient(pink,brown,white,orange);
+        }
+        .b{
+            background-image: linear-gradient(indigo, blue,orange,pink);
+        }
+        .c{
+         background-image: linear-gradient(aquamarine,orange,black);
+        }
+        .d{
+            background-image: linear-gradient(red, yellow, pink)
+        }
+        .t1{
+            position: relative;
+           
+            height: 50vh;
+            width: 50vw;
+           
+
+        }
+        .t2{
+            position: relative;
+           
+            height: 50vh;
+            width: 50vw;
+        }
+        .t3{
+            position: relative;
+            
+            height: 50vh;
+            width: 50vw;
+           
+        }
+        @media screen and (max-width: 320px) {
+            .t2,.t3{
+                display: none;
+            }
+        
+        }
+        @media screen and (min-width: 321px) and (max-width: 700px) {
+            .t1,.t3{
+                display: none;
+            }
+        }
+        @media screen and (min-width: 701px) {
+            .t1,.t2{
+                display: none;
+            }
+        }
+        
+        
+         
+    </style>
+</head>
+<body>
+    <table class="t1">
+        <tr>
+            <td class="a"></td>
+            <td class="b"></td>
+        </tr>
+        <tr>
+            <td class="c"></td>
+            <td class="d"></td>
+        </tr>
+
+    </table>
+    <table class="t2">
+    <tr>
+        <td><img height="150px" src="./prabhas.jpeg"></td>
+        <td><img height="150px" src="./prabhas.jpeg"></td>
+        <td><img height="150px" src="./prabhas.jpeg"></td>
+    </tr>
+    <tr>
+        <td><img height="150px" src="./prabhas.jpeg"></td>
+        <td><img height="150px" src="./prabhas.jpeg"></td>
+        <td><img height="150px" src="./prabhas.jpeg"></td>
+    </tr>
+    <tr>
+        <td><img height="150px" src="./prabhas.jpeg"></td>
+        <td><img height="150px" src="./prabhas.jpeg"></td>
+        <td><img height="150px" src="./prabhas.jpeg"></td>
+    </tr>
+</table>
+<table class="t3">
+    <tr>
+        <td><img height="150" src="./virat kohli.jpeg"></td>
+        <td><img height="150" src="./virat kohli.jpeg"></td>
+        <td><img height="150" src="./virat kohli.jpeg"></td>
+        <td><img height="150" src="./virat kohli.jpeg"></td>
+    </tr>
+    <tr>
+        <td><img height="150" src="./virat kohli.jpeg"></td>
+        <td><img height="150" src="./virat kohli.jpeg"></td>
+        <td><img height="150" src="./virat kohli.jpeg"></td>
+        <td><img height="150" src="./virat kohli.jpeg"></td>
+    </tr>
+    <tr>
+        <td><img height="150" src="./virat kohli.jpeg"></td>
+        <td><img height="150" src="./virat kohli.jpeg"></td>
+        <td><img height="150" src="./virat kohli.jpeg"></td>
+        <td><img height="150" src="./virat kohli.jpeg"></td>
+    </tr>
+    <tr>
+        <td><img height="150" src="./virat kohli.jpeg"></td>
+        <td><img height="150" src="./virat kohli.jpeg"></td>
+        <td><img height="150" src="./virat kohli.jpeg"></td>
+        <td><img height="150" src="./virat kohli.jpeg"></td>
+    </tr>
+</table>
+</body>
+</html>
